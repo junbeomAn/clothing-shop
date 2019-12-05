@@ -1,7 +1,7 @@
 import React from 'react'
 import './custon-button.styles.scss';
 
-const CustomButtom = ({ children, isGoogleSignIn, ...otherProps }) => {
+const CustomButton = ({ children, isGoogleSignIn, ...otherProps }) => {
   return (
     <button className={`${isGoogleSignIn ? 'google-sign-in' : ''} custom-button`} {...otherProps} >
       {children}
@@ -9,6 +9,6 @@ const CustomButtom = ({ children, isGoogleSignIn, ...otherProps }) => {
   )
 }
 
-export default CustomButtom;
+export default CustomButton;
 
 
