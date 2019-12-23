@@ -1,0 +1,21 @@
+import React, { Component } from 'react';
+
+import CustomButton from './../custon-button/custon-button.component';
+
+import './cart-dropdown.styles.scss';
+
+class CartDropdown extends Component {
+  render() {
+    return (
+      <div className="cart-dropdown">
+        <div className="cart-items">
+
+        </div>
+        <CustomButton>GO TO CHECKOUT</CustomButton>
+      </div>
+    );
+  }
+}
+
+
+export default CartDropdown;
