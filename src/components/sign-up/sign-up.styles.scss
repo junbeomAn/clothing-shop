@@ -5,4 +5,12 @@
   .title {
     margin: 10px 0;
   }
+
+  @media only screen and (max-width: 800px) {
+    width: 85%;
+    align-items: center;
+    .sign-up-form {
+      width: 100%;
+    }
+  }
 }
